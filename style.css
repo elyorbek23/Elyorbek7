@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+}
+.boss{
+    width: 1440px;
+    height: 100%;
+    background-color: white;
+}
+.header{
+    width: 1440px;
+    height: 100px;
+    background-color: #004AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+h2{
+    color: white;
+
+}
+h2:hover{
+    background-color: red;
+}
+.picture{
+    width: 1440px;
+    height: 746px;
+    background-image: url(./9500b32b0ce7b1ac8e0571fa822b79af8b1ba113.jpg);
+    background-size: cover;
+}
+.pictures{
+    width: 1440px;
+    height: 420px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background-image: url(./Rectangle\ 1094.png);
+
+}
+.footer{
+    width: 1440px;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
